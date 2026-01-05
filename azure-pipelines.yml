@@ -22,4 +22,4 @@ steps:
     azureSubscription: 'Pipeline-Dev_ResourceConn'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'az containerapp update --name uae-modrek-pipeline-dev --resource-group uae-modrek-rg --container-name pipeline --image modrekregistry.azurecr.io/pipeline_dev:latest'
+    inlineScript: 'az containerapp update --name uae-modrek-pipeline-dev --resource-group uae-modrek-rg --container-name pipeline-nginx --image modrekregistry.azurecr.io/pipeline_dev:latest'
